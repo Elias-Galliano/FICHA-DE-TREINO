@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#0c70a6" />
+  <meta name="theme-color" content="#071827" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Treino Elias" />
+  <meta name="description" content="Ficha de treino interativa de Elias Galiano." />
   <title>Treino Elias</title>
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
@@ -14,51 +15,94 @@
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="brandIcon">E</div><div><strong>Treino Elias</strong><small>Ficha interativa</small></div></div>
-  <button id="installBtn" class="ghost hidden">Instalar</button>
+  <div class="topbarInner">
+    <div class="brand">
+      <div class="brandMark" aria-hidden="true">E</div>
+      <div><strong>Treino Elias</strong><small>Ficha inteligente</small></div>
+    </div>
+    <div class="topActions">
+      <button id="themeBtn" class="iconBtn" type="button" aria-label="Alternar tema">◐</button>
+      <button id="installBtn" class="installBtn hidden" type="button">Instalar</button>
+    </div>
+  </div>
 </header>
 
 <main>
   <section class="hero">
-    <div><span class="eyebrow">ALUNO</span><h1>Elias Galiano</h1><p>Aumento de massa muscular / Fortalecimento</p><div class="onlineVideoNote">▶ Animações 3D locais nos exercícios disponíveis neste pacote</div></div>
-    <div class="meta"><span>Início <b>17/03/2026</b></span><span>Reavaliação <b>17/12/2026</b></span><span>Prof. <b>Larissa</b></span></div>
+    <div class="heroGlow"></div>
+    <div class="heroMain">
+      <span class="kicker">PROGRAMA PERSONALIZADO</span>
+      <h1>Elias Galiano</h1>
+      <p>Aumento de massa muscular <span>•</span> Fortalecimento</p>
+      <div class="heroTags">
+        <span>Início <b>17/03/2026</b></span>
+        <span>Reavaliação <b>17/12/2026</b></span>
+        <span>Prof. <b>Larissa</b></span>
+      </div>
+    </div>
+    <div class="heroSide">
+      <div class="heroStat"><small>Rotina</small><strong>A • B • C</strong></div>
+      <div class="heroStat"><small>Mídia</small><strong>Animações + imagens</strong></div>
+    </div>
   </section>
 
   <nav class="tabs" aria-label="Treinos">
-    <button class="tab active" data-workout="A">Treino A</button>
-    <button class="tab" data-workout="B">Treino B</button>
-    <button class="tab" data-workout="C">Treino C</button>
-    <button class="tab" data-workout="history">Histórico</button>
+    <button class="tab active" data-workout="A"><span>A</span>Treino A</button>
+    <button class="tab" data-workout="B"><span>B</span>Treino B</button>
+    <button class="tab" data-workout="C"><span>C</span>Treino C</button>
+    <button class="tab" data-workout="history"><span>↻</span>Histórico</button>
   </nav>
 
   <section id="workoutView">
-    <div class="sectionHead"><div><span id="workoutTag">TREINO A</span><h2 id="workoutTitle">Membros inferiores, mobilidade e core</h2></div><div class="progressText"><b id="doneCount">0</b>/<span id="totalCount">0</span></div></div>
-    <div class="progress"><div id="progressBar"></div></div>
-    <div id="cards" class="cards"></div>
-    <div class="actions">
-      <button id="finishBtn" class="primary">Finalizar treino</button>
-      <button id="resetBtn" class="secondary">Limpar marcações</button>
+    <div class="workoutHeader">
+      <div>
+        <span id="workoutTag" class="kicker dark">TREINO A</span>
+        <h2 id="workoutTitle">Membros inferiores, mobilidade e core</h2>
+      </div>
+      <div class="progressPill"><b id="doneCount">0</b><span>/</span><span id="totalCount">0</span></div>
     </div>
-    <label class="notes"><span>Anotações do treino</span><textarea id="notes" rows="4" placeholder="Ex.: aumentar carga no próximo treino, observações de execução..."></textarea></label>
+    <div class="progress"><div id="progressBar"></div></div>
+    <div class="legend"><span><i class="dot animated"></i>Animação</span><span><i class="dot static"></i>Alongamento em imagem</span></div>
+
+    <div id="cards" class="cards"></div>
+
+    <div class="workoutActions">
+      <button id="finishBtn" class="primaryBtn" type="button">✓ Finalizar treino</button>
+      <button id="resetBtn" class="secondaryBtn" type="button">Limpar marcações</button>
+    </div>
+
+    <label class="notes">
+      <span>Anotações do treino</span>
+      <textarea id="notes" rows="4" placeholder="Carga, execução, observações para o próximo treino..."></textarea>
+    </label>
   </section>
 
   <section id="historyView" class="hidden">
-    <div class="sectionHead"><div><span>HISTÓRICO</span><h2>Treinos finalizados</h2></div></div>
+    <div class="workoutHeader">
+      <div><span class="kicker dark">HISTÓRICO</span><h2>Treinos finalizados</h2></div>
+    </div>
     <div id="historyList" class="history"></div>
-    <button id="clearHistory" class="danger">Apagar histórico</button>
+    <button id="clearHistory" class="dangerBtn" type="button">Apagar histórico</button>
   </section>
 
   <section class="pdfBox">
-    <div><strong>Ficha original em PDF</strong><small>Versão de 3 páginas otimizada para celular.</small></div>
-    <a href="assets/Ficha_Treino_Elias.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+    <div class="pdfIcon">PDF</div>
+    <div><strong>Ficha original</strong><small>Versão A4/mobile em 3 páginas.</small></div>
+    <a href="assets/Ficha_Treino_Elias.pdf" target="_blank" rel="noopener">Abrir</a>
   </section>
+
+  <p class="footerNote">As animações marcadas como “referência visual” representam movimento equivalente ou aproximado da prescrição.</p>
 </main>
 
-<div id="videoModal" class="videoModal hidden" role="dialog" aria-modal="true" aria-labelledby="videoModalTitle">
-  <div class="videoModalCard">
-    <div class="videoModalHead"><strong id="videoModalTitle">Demonstração</strong><button id="videoModalClose" type="button" aria-label="Fechar">×</button></div>
-    <video id="videoModalPlayer" controls muted loop playsinline></video>
+<div id="mediaModal" class="mediaModal hidden" role="dialog" aria-modal="true" aria-labelledby="mediaModalTitle">
+  <div class="mediaModalCard">
+    <div class="mediaModalHead"><strong id="mediaModalTitle">Demonstração</strong><button id="mediaModalClose" type="button" aria-label="Fechar">×</button></div>
+    <img id="mediaModalImg" alt="Demonstração ampliada" />
   </div>
+</div>
+
+<div id="timerBar" class="timerBar hidden" role="status">
+  <span>Descanso</span><strong id="timerValue">1:00</strong><button id="timerCancel" type="button">Cancelar</button>
 </div>
 <div id="toast" class="toast"></div>
 <script src="app.js"></script>

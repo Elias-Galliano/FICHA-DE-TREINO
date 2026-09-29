@@ -1,42 +1,31 @@
 {
-  "A:6": {
-    "type": "video",
-    "src": "assets/videos/0074.mp4",
-    "label": "Leg press 45°",
-    "primary": "Quadríceps",
-    "secondary": ["Glúteos", "Posteriores de coxa"],
-    "sourceId": "0074"
-  },
-  "A:7": {
-    "type": "video",
-    "src": "assets/videos/0081.mp4",
-    "label": "Subida no step",
-    "primary": "Quadríceps",
-    "secondary": ["Glúteos", "Posteriores de coxa"],
-    "sourceId": "0081"
-  },
-  "A:11": {
-    "type": "video",
-    "src": "assets/videos/0079.mp4",
-    "label": "Cadeira flexora",
-    "primary": "Posteriores de coxa",
-    "secondary": ["Panturrilhas", "Glúteos"],
-    "sourceId": "0079"
-  },
-  "B:8": {
-    "type": "video",
-    "src": "assets/videos/0096.mp4",
-    "label": "Elevação lateral",
-    "primary": "Deltoides",
-    "secondary": ["Trapézio"],
-    "sourceId": "0096"
-  },
-  "C:5": {
-    "type": "video",
-    "src": "assets/videos/0051.mp4",
-    "label": "Voador frontal",
-    "primary": "Peitoral",
-    "secondary": ["Ombros"],
-    "sourceId": "0051"
-  }
+  "A:2": {"type":"animation","src":"assets/animations/a_03.webp","badge":"MOBILIDADE","approx":true,"note":"Referência visual de mobilidade lateral do quadril","primary":"Quadril","secondary":["Adutores","Glúteos"]},
+  "A:3": {"type":"animation","src":"assets/animations/a_04.webp","badge":"ANIMAÇÃO","approx":true,"note":"Mesmo padrão de abdução do quadril, com equipamento diferente","primary":"Glúteo médio","secondary":["Abdutores do quadril"]},
+  "A:4": {"type":"animation","src":"assets/animations/a_05.webp","badge":"ANIMAÇÃO","approx":true,"note":"Referência visual aproximada para flexão de quadril sentado","primary":"Flexores do quadril","secondary":["Abdômen"]},
+  "A:5": {"type":"animation","src":"assets/animations/a_06.webp","badge":"ANIMAÇÃO","approx":true,"note":"Mesmo movimento de extensão do joelho, demonstrado em máquina","primary":"Quadríceps","secondary":["Reto femoral"]},
+  "A:6": {"type":"animation","src":"assets/animations/a_07.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Quadríceps","secondary":["Glúteos","Posteriores de coxa"]},
+  "A:7": {"type":"animation","src":"assets/animations/a_08.webp","badge":"ANIMAÇÃO","approx":true,"note":"Referência visual de passada/subida para o padrão unilateral","primary":"Quadríceps","secondary":["Glúteos","Posteriores de coxa"]},
+  "A:8": {"type":"animation","src":"assets/animations/a_09.webp","badge":"CORE","approx":true,"note":"Referência visual aproximada para exercício alternado de estabilização","primary":"Core","secondary":["Glúteos","Ombros"]},
+  "A:9": {"type":"animation","src":"assets/animations/a_10.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Lombar","secondary":["Glúteos","Posteriores de coxa"]},
+  "A:10": {"type":"animation","src":"assets/animations/a_11.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Adutores","secondary":["Quadril"]},
+  "A:11": {"type":"animation","src":"assets/animations/a_12.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Posteriores de coxa","secondary":["Panturrilhas"]},
+
+  "B:3": {"type":"animation","src":"assets/animations/b_04.webp","badge":"ANIMAÇÃO","approx":true,"note":"Referência visual equivalente de remada sentada em máquina","primary":"Dorsais","secondary":["Bíceps","Deltoide posterior"]},
+  "B:4": {"type":"animation","src":"assets/animations/b_05.webp","badge":"ANIMAÇÃO","approx":true,"note":"Referência visual próxima para deltoide posterior e retração escapular","primary":"Deltoide posterior","secondary":["Trapézio","Romboides"]},
+  "B:5": {"type":"animation","src":"assets/animations/b_06.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Dorsais","secondary":["Redondo maior","Tríceps"]},
+  "B:6": {"type":"animation","src":"assets/animations/b_07.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Dorsais","secondary":["Bíceps"]},
+  "B:7": {"type":"animation","src":"assets/animations/b_08.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Dorsais","secondary":["Bíceps","Romboides"]},
+  "B:8": {"type":"animation","src":"assets/animations/b_09.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Deltoide lateral","secondary":["Trapézio"]},
+  "B:9": {"type":"animation","src":"assets/animations/b_10.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Bíceps","secondary":["Braquial","Antebraço"]},
+  "B:10": {"type":"animation","src":"assets/animations/b_11.webp","badge":"ANIMAÇÃO","approx":true,"note":"A animação demonstra a rosca; o método 21 está nas repetições da ficha","primary":"Bíceps","secondary":["Braquial"]},
+
+  "C:3": {"type":"animation","src":"assets/animations/c_04.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Peitoral","secondary":["Tríceps","Deltoide anterior"]},
+  "C:4": {"type":"animation","src":"assets/animations/c_05.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Tríceps","secondary":["Antebraço"]},
+  "C:5": {"type":"animation","src":"assets/animations/c_06.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Peitoral","secondary":["Deltoide anterior"]},
+  "C:6": {"type":"animation","src":"assets/animations/c_07.webp","badge":"ANIMAÇÃO","approx":true,"note":"Referência visual unilateral/alternada do tríceps francês","primary":"Tríceps","secondary":["Ombros"]},
+  "C:7": {"type":"animation","src":"assets/animations/c_08.webp","badge":"ANIMAÇÃO","approx":false,"primary":"Peitoral superior","secondary":["Deltoide anterior"]},
+  "C:8": {"type":"animation","src":"assets/animations/c_09.webp","badge":"ANIMAÇÃO","approx":true,"note":"Referência visual para desenvolvimento alternado com rotação","primary":"Deltoides","secondary":["Tríceps"]},
+  "C:9": {"type":"animation","src":"assets/animations/c_10.webp","badge":"ANIMAÇÃO","approx":true,"note":"Referência visual para tríceps unilateral na polia","primary":"Tríceps","secondary":["Antebraço"]},
+  "C:10": {"type":"animation","src":"assets/animations/c_11.webp","badge":"CORE","approx":true,"note":"Referência visual de prancha frontal alta","primary":"Core","secondary":["Ombros","Glúteos"]},
+  "C:11": {"type":"animation","src":"assets/animations/c_12.webp","badge":"CORE","approx":false,"primary":"Oblíquos","secondary":["Glúteos","Ombros"]}
 }

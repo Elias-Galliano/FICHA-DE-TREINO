@@ -1,25 +1,24 @@
-TREINO ELIAS — V4 ANIMAÇÕES 3D LOCAIS
+TREINO ELIAS — V5 PREMIUM
 
-Esta versão usa animações MP4 do pacote Vital Animations enviado pelo usuário.
-Foram vinculadas SOMENTE correspondências exatas/seguras encontradas no pacote gratuito:
+Publicação no GitHub Pages:
+1. Extraia este ZIP.
+2. Substitua todo o conteúdo do repositório FICHA-DE-TREINO pelos arquivos desta pasta.
+3. Confirme que a pasta assets/animations foi enviada completa.
+4. Aguarde o GitHub Pages publicar.
+5. No navegador, use Ctrl+Shift+R. No PWA instalado, feche e abra novamente.
 
-Treino A
-- Leg press 45° -> 0074.mp4
-- Subida em 2 steps -> 0081.mp4
-- Cadeira flexora -> 0079.mp4
+Mídia:
+- Alongamentos: imagens estáticas.
+- Demais exercícios: animações WebP otimizadas para o app.
+- Itens marcados como “Referência visual” usam movimento equivalente/aproximado do acervo disponível.
 
-Treino B
-- Elevação lateral -> 0096.mp4
-
-Treino C
-- Voador frontal -> 0051.mp4
-
-Nos demais exercícios, a imagem de apoio foi mantida para evitar associar uma animação incorreta ao movimento prescrito.
-
-PUBLICAÇÃO NO GITHUB PAGES
-1. Substitua os arquivos do repositório pelos arquivos desta pasta.
-2. Envie também as pastas assets/videos e assets/exercises.
-3. Aguarde a publicação do GitHub Pages.
-4. Abra o site e faça Ctrl+Shift+R no computador, ou limpe/atualize o PWA no celular.
-
-Os vídeos locais ficam em assets/videos.
+Recursos:
+- Treinos A, B e C
+- Carga editável e salva no aparelho
+- Marcação de exercícios concluídos
+- Barra de progresso
+- Timer de descanso nos exercícios com intervalo
+- Histórico local
+- Tema claro/escuro
+- Instalação PWA
+- PDF original
