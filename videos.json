@@ -1,0 +1,46 @@
+{
+  "A": [
+    [{"platform":"youtube","id":"LFuJCjSs57k","label":"Alongamento posterior"}],
+    [{"platform":"youtube","id":"PwhXl0z31f8","label":"Alongamento de quadríceps"}],
+    [{"platform":"youtube","id":"urPHpKncUpk","label":"Mobilidade de quadril"}],
+    [{"platform":"youtube","id":"h9pSOjCeJ8o","label":"Abdução de quadril sentada com miniband"}],
+    [{"platform":"vimeo","id":"486227259","label":"Flexão de quadril sentada com faixa elástica"}],
+    [{"platform":"youtube","id":"Df7UXfVJ4Sg","label":"Extensão de joelho com caneleira"}],
+    [{"platform":"youtube","id":"EiltwxxREDc","label":"Leg press 45°"}],
+    [{"platform":"youtube","id":"5qSwbBigW9s","label":"Step-up / subida no step"}],
+    [{"platform":"youtube","id":"GlOpvsoCzeU","label":"Bird Dog / perdigueiro"}],
+    [{"platform":"youtube","id":"W-ANaAZtyoA","label":"Superman"}],
+    [{"platform":"youtube","id":"XbhmXUYp8hs","label":"Cadeira adutora"}],
+    [{"platform":"youtube","id":"MqhoP1kWMA8","label":"Cadeira flexora"}]
+  ],
+  "B": [
+    [{"platform":"youtube","id":"bA34-wI3mO4","label":"Alongamento dorsal"}],
+    [{"platform":"youtube","id":"xsXoAyTI-Vc","label":"Alongamento de tríceps"}],
+    [{"platform":"youtube","id":"6Be-s3RwVp4","label":"Alongamento peitoral na parede"}],
+    [{"platform":"youtube","id":"DJ2NTtwq9YA","label":"Remada articulada"}],
+    [{"platform":"youtube","id":"kamdxk0L4Yw","label":"Face pull"}],
+    [{"platform":"youtube","id":"3-HByhIzcgA","label":"Pulldown / pullover com corda"}],
+    [{"platform":"youtube","id":"MzjQ92Lv9Xk","label":"Pulley frente com pegada neutra"}],
+    [{"platform":"youtube","id":"kbDJnMRyLGQ","label":"Remada baixa com triângulo"}],
+    [{"platform":"youtube","id":"yURmeIEl1Fg","label":"Elevação lateral"}],
+    [{"platform":"youtube","id":"GilFwBs_kOs","label":"Rosca martelo alternada"}],
+    [{"platform":"youtube","id":"Vt1zknMr3TQ","label":"Bíceps 21"}]
+  ],
+  "C": [
+    [{"platform":"youtube","id":"6Be-s3RwVp4","label":"Alongamento peitoral na parede"}],
+    [{"platform":"youtube","id":"xsXoAyTI-Vc","label":"Alongamento de tríceps"}],
+    [{"platform":"youtube","id":"bA34-wI3mO4","label":"Alongamento dorsal"}],
+    [{"platform":"youtube","id":"vWy_c05FWtE","label":"Supino reto com halteres"}],
+    [{"platform":"youtube","id":"JZxg-5ri75o","label":"Tríceps testa"}],
+    [{"platform":"youtube","id":"jRSvJAIkKyA","label":"Voador frontal"}],
+    [{"platform":"youtube","id":"JAtWcipJBuc","label":"Tríceps francês unilateral"}],
+    [{"platform":"youtube","id":"MEouME-ymto","label":"Fly / crucifixo inclinado"}],
+    [{"platform":"youtube","id":"8rEbtUGEXR8","label":"Desenvolvimento alternado com pegada neutra"}],
+    [
+      {"platform":"youtube","id":"uCEmUQm_1uE","label":"Pegada neutra"},
+      {"platform":"youtube","id":"sMgDWBloKGk","label":"Pegada pronada"}
+    ],
+    [{"platform":"youtube","id":"jh0z3gbljUM","label":"Prancha abdominal"}],
+    [{"platform":"youtube","id":"pWGhRO5grqs","label":"Prancha lateral"}]
+  ]
+}
