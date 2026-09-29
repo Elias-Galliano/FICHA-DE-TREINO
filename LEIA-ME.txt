@@ -1,20 +1,9 @@
-APP TREINO ELIAS — PWA COM SUPORTE A VÍDEOS MP4
+APP TREINO ELIAS — PWA
 
+Arquivos prontos para hospedagem estática.
 1. Envie todo o conteúdo desta pasta para uma pasta pública HTTPS do seu site/hospedagem.
 2. Abra index.html pelo endereço HTTPS.
 3. Android/Chrome: menu do navegador > Instalar app / Adicionar à tela inicial.
 4. iPhone/Safari: Compartilhar > Adicionar à Tela de Início.
 
-VÍDEOS
-- A pasta assets/videos já está preparada.
-- Os vídeos são opcionais: se um MP4 ainda não existir, o app mostra a imagem correspondente.
-- Quando o MP4 correto for adicionado, o app passa a exibir automaticamente o vídeo em autoplay, loop e sem som.
-- Há botão “Ampliar” para ver o movimento em tela maior.
-- Consulte assets/videos/COMO_ADICIONAR_VIDEOS.txt para os nomes exatos dos arquivos.
-
-OFFLINE
-- O app, os dados e as imagens de fallback funcionam offline depois do primeiro carregamento.
-- Os vídeos MP4 são carregados da hospedagem e, por padrão, não ficam armazenados no cache offline para evitar ocupar muito espaço no celular.
-
-PROGRESSO
-- Marcações, cargas, anotações e histórico ficam salvos apenas no próprio aparelho (localStorage).
+O app funciona offline após a primeira abertura e salva progresso, cargas, anotações e histórico apenas no próprio aparelho (localStorage).
