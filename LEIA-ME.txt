@@ -1,24 +1,25 @@
-APP TREINO ELIAS — PWA COM VÍDEOS REAIS DE DEMONSTRAÇÃO
+TREINO ELIAS — V4 ANIMAÇÕES 3D LOCAIS
 
-INSTALAÇÃO
-1. Envie todo o conteúdo desta pasta para uma pasta pública HTTPS do seu site/hospedagem.
-2. Abra index.html pelo endereço HTTPS.
-3. Android/Chrome: menu do navegador > Instalar app / Adicionar à tela inicial.
-4. iPhone/Safari: Compartilhar > Adicionar à Tela de Início.
+Esta versão usa animações MP4 do pacote Vital Animations enviado pelo usuário.
+Foram vinculadas SOMENTE correspondências exatas/seguras encontradas no pacote gratuito:
 
-VÍDEOS
-- As imagens dos exercícios foram substituídas por vídeos reais incorporados de plataformas externas (principalmente YouTube e um Vimeo).
-- Os vídeos NÃO são copiados nem redistribuídos dentro do ZIP; o app incorpora os players oficiais das plataformas.
-- É necessária conexão com a internet para reproduzir os vídeos.
-- O arquivo videos.json concentra os links/IDs e pode ser alterado sem mexer no restante do app.
-- O exercício C10 possui duas demonstrações, uma para pegada neutra e outra para pegada pronada.
+Treino A
+- Leg press 45° -> 0074.mp4
+- Subida em 2 steps -> 0081.mp4
+- Cadeira flexora -> 0079.mp4
 
-IMPORTANTE SOBRE A EXECUÇÃO
-Os vídeos são referências visuais de movimento. A prescrição da ficha (séries, repetições, cargas, intervalos e adaptações) continua sendo a orientação principal da professora. Em exercícios cuja nomenclatura manuscrita admite variação, confirme a execução exata com a profissional responsável.
+Treino B
+- Elevação lateral -> 0096.mp4
 
-OFFLINE
-- O app, a ficha, o histórico, cargas e anotações continuam disponíveis offline após o primeiro carregamento.
-- Os vídeos externos precisam de internet.
+Treino C
+- Voador frontal -> 0051.mp4
 
-PROGRESSO
-- Marcações, cargas, anotações e histórico ficam salvos apenas no próprio aparelho (localStorage).
+Nos demais exercícios, a imagem de apoio foi mantida para evitar associar uma animação incorreta ao movimento prescrito.
+
+PUBLICAÇÃO NO GITHUB PAGES
+1. Substitua os arquivos do repositório pelos arquivos desta pasta.
+2. Envie também as pastas assets/videos e assets/exercises.
+3. Aguarde a publicação do GitHub Pages.
+4. Abra o site e faça Ctrl+Shift+R no computador, ou limpe/atualize o PWA no celular.
+
+Os vídeos locais ficam em assets/videos.

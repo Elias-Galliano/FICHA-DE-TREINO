@@ -1,0 +1,42 @@
+{
+  "A:6": {
+    "type": "video",
+    "src": "assets/videos/0074.mp4",
+    "label": "Leg press 45°",
+    "primary": "Quadríceps",
+    "secondary": ["Glúteos", "Posteriores de coxa"],
+    "sourceId": "0074"
+  },
+  "A:7": {
+    "type": "video",
+    "src": "assets/videos/0081.mp4",
+    "label": "Subida no step",
+    "primary": "Quadríceps",
+    "secondary": ["Glúteos", "Posteriores de coxa"],
+    "sourceId": "0081"
+  },
+  "A:11": {
+    "type": "video",
+    "src": "assets/videos/0079.mp4",
+    "label": "Cadeira flexora",
+    "primary": "Posteriores de coxa",
+    "secondary": ["Panturrilhas", "Glúteos"],
+    "sourceId": "0079"
+  },
+  "B:8": {
+    "type": "video",
+    "src": "assets/videos/0096.mp4",
+    "label": "Elevação lateral",
+    "primary": "Deltoides",
+    "secondary": ["Trapézio"],
+    "sourceId": "0096"
+  },
+  "C:5": {
+    "type": "video",
+    "src": "assets/videos/0051.mp4",
+    "label": "Voador frontal",
+    "primary": "Peitoral",
+    "secondary": ["Ombros"],
+    "sourceId": "0051"
+  }
+}
