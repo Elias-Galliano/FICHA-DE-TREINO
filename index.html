@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0c70a6" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Treino Elias" />
+  <title>Treino Elias</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><div class="brandIcon">E</div><div><strong>Treino Elias</strong><small>Ficha interativa</small></div></div>
+  <button id="installBtn" class="ghost hidden">Instalar</button>
+</header>
+
+<main>
+  <section class="hero">
+    <div><span class="eyebrow">ALUNO</span><h1>Elias Galiano</h1><p>Aumento de massa muscular / Fortalecimento</p></div>
+    <div class="meta"><span>Início <b>17/03/2026</b></span><span>Reavaliação <b>17/12/2026</b></span><span>Prof. <b>Larissa</b></span></div>
+  </section>
+
+  <nav class="tabs" aria-label="Treinos">
+    <button class="tab active" data-workout="A">Treino A</button>
+    <button class="tab" data-workout="B">Treino B</button>
+    <button class="tab" data-workout="C">Treino C</button>
+    <button class="tab" data-workout="history">Histórico</button>
+  </nav>
+
+  <section id="workoutView">
+    <div class="sectionHead"><div><span id="workoutTag">TREINO A</span><h2 id="workoutTitle">Membros inferiores, mobilidade e core</h2></div><div class="progressText"><b id="doneCount">0</b>/<span id="totalCount">0</span></div></div>
+    <div class="progress"><div id="progressBar"></div></div>
+    <div id="cards" class="cards"></div>
+    <div class="actions">
+      <button id="finishBtn" class="primary">Finalizar treino</button>
+      <button id="resetBtn" class="secondary">Limpar marcações</button>
+    </div>
+    <label class="notes"><span>Anotações do treino</span><textarea id="notes" rows="4" placeholder="Ex.: aumentar carga no próximo treino, observações de execução..."></textarea></label>
+  </section>
+
+  <section id="historyView" class="hidden">
+    <div class="sectionHead"><div><span>HISTÓRICO</span><h2>Treinos finalizados</h2></div></div>
+    <div id="historyList" class="history"></div>
+    <button id="clearHistory" class="danger">Apagar histórico</button>
+  </section>
+
+  <section class="pdfBox">
+    <div><strong>Ficha original em PDF</strong><small>Versão de 3 páginas otimizada para celular.</small></div>
+    <a href="assets/Ficha_Treino_Elias.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+  </section>
+</main>
+
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
