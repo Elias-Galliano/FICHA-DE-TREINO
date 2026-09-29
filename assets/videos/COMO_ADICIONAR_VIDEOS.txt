@@ -1,0 +1,58 @@
+APP TREINO ELIAS — VÍDEOS MP4
+
+Coloque os vídeos nesta pasta usando EXATAMENTE os nomes abaixo.
+O app detecta automaticamente quando o MP4 existe. Enquanto ele não existir,
+a imagem atual continua aparecendo como fallback.
+
+RECOMENDAÇÃO PARA CADA VÍDEO
+- Formato: MP4 (H.264)
+- Orientação: vertical ou quadrada
+- Duração: 4 a 10 segundos
+- Sem áudio (o app já reproduz sem som)
+- Loop limpo mostrando 1 ou 2 repetições do movimento
+- Resolução sugerida: 720p
+- Tamanho ideal: até 2 MB por exercício
+
+TREINO A
+A01  a_01.mp4  Alongamento posterior
+A02  a_02.mp4  Alongamento quadríceps
+A03  a_03.mp4  Mobilidade quadril / diagonal
+A04  a_04.mp4  Abdução dos pés c/ miniband (sentado)
+A05  a_05.mp4  Flexão de quadril (sentado)
+A06  a_06.mp4  Extensão de joelho (com caneleira)
+A07  a_07.mp4  Leg press 45°
+A08  a_08.mp4  Subida em 2 steps (frente + lateral)
+A09  a_09.mp4  Perdigueiro inverso
+A10  a_10.mp4  Superman
+A11  a_11.mp4  Cadeira adutora
+A12  a_12.mp4  Cadeira flexora
+
+TREINO B
+B01  b_01.mp4  Alongamento dorsal
+B02  b_02.mp4  Alongamento tríceps
+B03  b_03.mp4  Alongamento peitoral
+B04  b_04.mp4  Remada articulada P.A.
+B05  b_05.mp4  Pull face
+B06  b_06.mp4  Pulldown com corda
+B07  b_07.mp4  Pulley frente (pegada neutra)
+B08  b_08.mp4  Remada baixa (triângulo)
+B09  b_09.mp4  Elevação lateral
+B10  b_10.mp4  Rosca martelo alternada
+B11  b_11.mp4  Bíceps 21
+
+TREINO C
+C01  c_01.mp4  Alongamento peitoral
+C02  c_02.mp4  Alongamento tríceps
+C03  c_03.mp4  Alongamento dorsal
+C04  c_04.mp4  Supino reto com halteres
+C05  c_05.mp4  Tríceps testa
+C06  c_06.mp4  Voador frontal
+C07  c_07.mp4  Tríceps francês unilateral
+C08  c_08.mp4  Fly inclinado
+C09  c_09.mp4  Desenvolvimento fechado/alternado
+C10  c_10.mp4  Tríceps P.N. + P.P. unilateral
+C11  c_11.mp4  Prancha abdominal
+C12  c_12.mp4  Prancha abdominal lateral
+
+Depois de adicionar ou substituir vídeos na hospedagem, atualize/recarregue o app.
+Não é necessário alterar app.js, data.json ou index.html.
